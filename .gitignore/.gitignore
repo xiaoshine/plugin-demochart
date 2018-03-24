@@ -1,0 +1,5 @@
+*.iml
+!plugin.xml
+.idea/
+.DS_Store
+lib
