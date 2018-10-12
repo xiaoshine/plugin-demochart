@@ -25,16 +25,16 @@ public class DemoTableDataPane extends AbstractExtendedChartTableDataPane<DemoDa
 
    // private UIComboBoxWithNone seriesName;
 
-    @Override
-    protected ExtendedCustomFieldComboBoxPane createExtendedCustomFieldComboBoxPane() {
-        return new ExtendedCustomFieldComboBoxPane();
-    }
+//    @Override
+//    protected ExtendedCustomFieldComboBoxPane createExtendedCustomFieldComboBoxPane() {
+//        return new ExtendedCustomFieldComboBoxPane();
+//    }
 
     @Override
     protected String[] fieldLabels() {
         return new String[]{
                 "X轴",
-                "指标名",
+  //              "指标名",
                 "Y轴",
                 "Z轴",
 //                "预期值",
@@ -58,13 +58,13 @@ public class DemoTableDataPane extends AbstractExtendedChartTableDataPane<DemoDa
         }
         return new Component[]{
                 xComboBox,
-                targetName,
+          //      targetName,
                 yComboBox,
                 zComboBox,
-                expect,
-                expectFunction,
-                actual,
-                actualFunction
+//                expect,
+//                expectFunction,
+//                actual,
+//                actualFunction
         };
     }
 
@@ -81,8 +81,8 @@ public class DemoTableDataPane extends AbstractExtendedChartTableDataPane<DemoDa
                 xComboBox,
                 yComboBox,
                 zComboBox,
-                expect,
-                actual
+//                expect,
+//                actual
         };
     }
 
